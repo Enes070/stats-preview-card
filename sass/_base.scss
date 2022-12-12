@@ -1,0 +1,25 @@
+:root{
+    //Colors
+
+    //Primary
+
+    --very_dark_blue:#0a0c1a;
+    --dark_desaturated_blue:#1b1937;
+    --soft_violet:#Ab5ddb;
+
+    //Neutral
+
+    --white:#ffffff;//main paragraph
+    --grey:#808080;
+    // --slightly_transparent_white_main_headings:#ffffff //0.75; //main headings
+    // --slightly_transparent_white_stat_headings:#ffffff //0.6; //stat headings
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:var(--very_dark_blue);
+}

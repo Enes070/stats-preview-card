@@ -1,0 +1,94 @@
+:root {
+  --very_dark_blue:#0a0c1a;
+  --dark_desaturated_blue:#1b1937;
+  --soft_violet:#Ab5ddb;
+  --white:#ffffff;
+  --grey:#808080; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: var(--very_dark_blue); }
+
+.stats_preview_card {
+  background-color: var(--dark_desaturated_blue);
+  width: 1200px;
+  height: 446px;
+  margin: 200px;
+  margin-left: 400px;
+  border-radius: 10px; }
+
+.card_title {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
+  color: var(--white);
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  line-height: 50px; }
+  .card_title span {
+    color: var(--soft_violet); }
+
+.card_details {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+  color: var(--grey);
+  text-align: left;
+  padding-left: 100px; }
+
+.companies_stats_preview {
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Outfit', sans-serif;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 25px;
+  float: left; }
+  .companies_stats_preview span {
+    font-size: 10px;
+    color: var(--grey);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900; }
+
+.stats_preview_templates {
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Outfit', sans-serif;
+  margin-top: 50px;
+  line-height: 25px;
+  float: left; }
+  .stats_preview_templates span {
+    font-size: 10px;
+    color: var(--grey);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900; }
+
+.stats_queries {
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Outfit', sans-serif;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 25px;
+  float: left; }
+  .stats_queries span {
+    font-size: 10px;
+    color: var(--grey);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900; }
+
+.stats__photo img {
+  float: right;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient(transparent); }
